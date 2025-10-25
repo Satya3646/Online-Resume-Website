@@ -1,0 +1,1 @@
+// This is the JS file I'm going to use in future to make my resume interactive.

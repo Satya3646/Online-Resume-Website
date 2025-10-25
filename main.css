@@ -1,0 +1,224 @@
+body {
+  color: rgb(0, 0, 0);
+  /* background-color: #141414; */
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto";
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  /* position: relative; */
+}
+
+#header{
+  color: white;
+  background: linear-gradient(to bottom right, blue , violet);
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#myName {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* #headline {
+}
+
+#motto {
+} */
+
+.navigation {
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  padding: 10px;
+  margin : 10px 10px 20px 10px;
+  transition: background-color 0.5s ease;
+}
+
+.navigation:hover {
+  background-color: rgb(199, 255, 255);
+}
+
+.nav-link {
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  border: solid;
+  border-radius: 30px;
+  border-width: 0px;
+  border-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: aqua;
+  transform: scale(1.1);
+}
+
+.sub-heading {
+  font-size: 100px;
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#about-section{
+  margin : 10px 10px 20px 10px;
+}
+
+.profile-photo {
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  margin: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.profile-photo:hover {
+  transform: scale(1.04);
+  box-shadow: 0 0 15px 5px rgba(60, 130, 250, 0.3);
+}
+
+.aboutme {
+  background-color: white;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 15px;
+  padding: 5px;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+}
+
+.aboutme:hover{
+  box-shadow: 0 0 15px 10px rgba(60, 130, 250, 0.3);
+  /* transform: scale(1.005); */
+  transform: translateY(-5px);
+  background-color: rgba(60, 130, 250, 0.1);
+}
+
+.myDescription {
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#cv-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 10px 30px 10px 30px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+#cv-link:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+}
+
+#myEducation{
+  margin : 10px 10px 20px 10px;
+}
+
+.edu-section {
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.edu-section:hover {
+  box-shadow: 0 0 25px 8px rgba(250, 190, 35, 0.3);
+  /* background-color: rgba(251, 191, 36, 0.1); */
+}
+
+.edu-card-title {
+  color: rgb(0, 0, 0);
+  background:linear-gradient(to bottom right, rgba(0, 251, 255, 0.3),rgba(0, 4, 255, 0.05), rgba(0, 4, 255, 0.15)
+  );
+  margin: -10px -10px 0px -10px;
+  padding: 10px 0px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.edu-card {
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  margin : 5px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.edu-card:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3);
+  /* transform: scale(1.01); */
+  transform: translateY(-5px);
+}
+
+.progress-bar-full {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(200, 200, 200);
+  border: 0px solid black;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .progress-wrap {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .progress-wrap-large {
+    width: 50%;
+  }
+}
+
+.progress-indicator {
+  height: 100%;
+  background: linear-gradient(to right,rgba(0, 255, 217, 0.7),rgb(0, 162, 255), rgba(4, 0, 255, 0.5));
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+}
+
+#mySkills{
+  margin : 10px 10px 20px 10px;
+}
+
+.skills-card{
+  margin: 10px;
+  border: 0px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-card:hover {
+  box-shadow: 0 0 15px 5px rgba(34, 197, 94, 0.3);
+  transform: translateY(-5px);
+}
+
+.skill-pill{
+  background: linear-gradient(to top right, rgba(0, 255, 0.1),rgba(255, 255, 0, 0.1));
+  border-radius: 50px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px 0px 5px 5px;
+  display: inline-block;
+}
+
